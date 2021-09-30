@@ -196,7 +196,7 @@ mod test {
         for (k, v) in results {
             result_count += v;
             println!(
-                "{:16}\t{:5}\t{:.2}%",
+                "{:14}us\t{:5}\t{:.2}%",
                 k,
                 v,
                 (v as f64 / TOTAL_COUNT as f64) * 100f64

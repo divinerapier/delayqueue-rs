@@ -1,6 +1,6 @@
 [package]
 name = "delayqueue"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2018"
 description = "A synchronized thread safe delayed queue"
 authors = ["divinerapier"]
