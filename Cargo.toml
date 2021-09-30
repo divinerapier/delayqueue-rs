@@ -1,0 +1,15 @@
+[package]
+name = "delayqueue"
+version = "0.0.1"
+edition = "2018"
+description = "A synchronized thread safe delayed queue"
+authors = ["divinerapier"]
+publish = true
+readme = "README.md"
+
+[dependencies]
+parking_lot = "0.11"
+
+[dev-dependencies]
+chrono = "0.4"
+rand = "0.8"
